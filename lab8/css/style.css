@@ -1,0 +1,88 @@
+/*
+*       Author:				Justin Dubin
+*		Date:				23 Mar 22
+*		Last revised:		23 Mar 22
+*   	Assignment:			Lab 8
+*		Purpose:			Exploring semantic HTML
+*/
+
+body {
+	font-family: 'Raleway', sans-serif;
+    margin: 0;
+    width: 100%;    
+}
+
+#container {
+	max-width: 1200px;
+    min-height: 500px;
+    margin: 0 auto;
+    padding: 0 10px;
+    margin-bottom: 75px;
+    margin: 0 auto;
+}
+
+.img-left {
+    display: block;
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+}
+
+.img-right {
+    display: block;
+    width: 100px;
+    float: right;
+    margin-left: 20px;  
+}
+
+header, nav, footer {
+	background-color: rgba(50,50,50,.8);
+    color: #eee;
+    width: 100%;
+    margin: 0;
+    padding: 10px 0px;
+}
+
+header {
+	height: 95px;
+    text-align: center;
+}
+
+#left-pane {
+	padding: 10px;
+    float:left;
+    width: 45%;
+}
+
+#right-pane {
+	padding: 10px;
+    float: right;
+    width: 45%;
+}
+
+nav {
+	padding-bottom: 15px;
+}
+
+nav a {
+	float: left;
+    display: block;
+    width: 75px;
+    color: #FFF;
+    padding: 5px 0;
+}
+
+nav a:link, nav a:visited {
+	margin-right: 5px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    left: 50px;
+    top: -25px;
+}
+
+nav a:hover, nav a:active, .current {
+	color: #FFDCAD;
+    border-bottom: 4px solid #333;
+}
